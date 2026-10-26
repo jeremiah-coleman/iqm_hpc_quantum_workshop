@@ -1,0 +1,6 @@
+# Extra packages for the MQT Core Slurm playground (MQT_CORE_SLURM_PACKAGES).
+# The playground already ships mqt-core[qiskit]; this adds the IQM QDMI device and the QSCI stack.
+iqm-qdmi[qiskit]
+qiskit-nature==0.7.2
+pyscf
+jax

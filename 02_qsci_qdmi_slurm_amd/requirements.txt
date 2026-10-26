@@ -1,0 +1,8 @@
+# Notebook 2 -- QSCI through QDMI + Slurm (+ AMD GPU)
+mqt-core[qiskit]          # QDMI driver, DDSIM device, Qiskit BackendV2 adapter
+iqm-qdmi[qiskit]          # QDMI-on-IQM device library (Resonance / Radiance)
+qiskit-nature==0.7.2      # PySCFDriver, UCCSD, HartreeFock, JordanWignerMapper
+pyscf
+scipy
+matplotlib
+jax                       # CPU build; on AMD GPUs install the ROCm build instead (see README)

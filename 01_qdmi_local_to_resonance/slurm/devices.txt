@@ -1,0 +1,7 @@
+# Packages added to the playground's shared environment (MQT_CORE_SLURM_PACKAGES).
+# mqt-core[qiskit] is already installed by the playground.
+iqm-qdmi[qiskit]
+# For Lab 3 (QSCI) on the same cluster:
+qiskit-nature==0.7.2
+pyscf
+jax
